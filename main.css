@@ -1,5 +1,7 @@
+/* Google Fonts Imports */
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
 
+/* Overall Website */
 body {
   font-family: Roboto, sans-serif;
   background-color: #fcfcfc;
@@ -13,6 +15,40 @@ html {
   padding: 0;
 }
 
+body.welcome #content {
+  padding: 0;
+  max-width: 100%;
+}
+
+/* Font & Text Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/* Header & Navigation */
+header {
+  border-top: 1rem solid #f8c954;
+}
+
+span.title {
+  font-size: 1.3889rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Footer */
 footer {
   background-color: #f8c954;
   max-width: 100rem;
@@ -22,11 +58,7 @@ footer {
   display: none;
 }
 
-body.welcome #content {
-  padding: 0;
-  max-width: 100%;
-}
-
+/* Map */
 .mapiframe {
   flex-grow: 0.7;
   border: none;
@@ -35,42 +67,6 @@ body.welcome #content {
   padding-right: 1em;
   width: calc(100vw - 1em);
   height: 80vh;
-}
-
-span.title {
-  font-size: 1.3889rem;
-  font-style: normal;
-  font-weight: normal;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.site-title h1,
-.h4,
-h5,
-.preview-block h4,
-.preview-block .site-title h1,
-.site-title .preview-block h1,
-.h5,
-h6,
-.h6 {
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizelegibility;
-}
-
-h2 {
-  /* text-decoration: underline; */
-}
-
-a {
-  text-decoration: underline;
 }
 
 body.team .col-single {
@@ -83,8 +79,4 @@ body.team .col-single {
 
 .breadcrumbs li {
   font-size: 0.85em;
-}
-
-header {
-  border-top: 1rem solid #f8c954;
 }
