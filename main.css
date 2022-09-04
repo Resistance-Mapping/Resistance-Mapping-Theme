@@ -1,81 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
 
 body {
-font-family: 'Roboto', sans-serif;
-background-color: #fcfcfc;
+  font-family: Roboto, sans-serif;
+  background-color: #fcfcfc;
 }
-.welcome body, html {
-width: 100%;
-height: 100%;
-margin: 0;
-padding: 0;
+
+.welcome body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.welcome footer{
-display: none;
+
+footer {
+  background-color: #f8c954;
+  max-width: 100rem;
+}
+
+.welcome footer {
+  display: none;
 }
 
 body.welcome #content {
-padding: 0;
-max-width: 100%;
+  padding: 0;
+  max-width: 100%;
 }
 
 .mapiframe {
- flex-grow: .7;
-border: none;
-margin: 0;
-padding: 0;
-padding-right: 1em;
-width: calc(100vw - 1em);
-height: 80vh;
+  flex-grow: 0.7;
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 1em;
+  width: calc(100vw - 1em);
+  height: 80vh;
 }
 
 span.title {
-font-family: 'Roboto';
-font-size: 1.38889rem;
-font-style: normal;
-font-weight: normal;
+  font-size: 1.3889rem;
+  font-style: normal;
+  font-weight: normal;
 }
 
-.top-bar {
-font-family: 'Roboto';
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.site-title h1,
+.h4,
+h5,
+.preview-block h4,
+.preview-block .site-title h1,
+.site-title .preview-block h1,
+.h5,
+h6,
+.h6 {
+  font-style: normal;
+  font-weight: normal;
+  color: inherit;
+  text-rendering: optimizelegibility;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .site-title h1, .h4, h5, .preview-block h4, .preview-block .site-title h1, .site-title .preview-block h1, .h5, h6, .h6 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: normal;
-    color: inherit;
-    text-rendering: optimizeLegibility;
-}
-h2{
-/*text-decoration: underline;*/
+h2 {
+  /* text-decoration: underline; */
 }
 
-a{
-text-decoration:underline;
+a {
+  text-decoration: underline;
 }
 
-body.team .col-single{
-padding-right: 2em;
+body.team .col-single {
+  padding-right: 2em;
 }
 
 .acp-team .item {
-margin-right: 2em;
+  margin-right: 2em;
 }
 
-.breadcrumbs li{
-font-size: .85em;
+.breadcrumbs li {
+  font-size: 0.85em;
 }
 
-header{
-border-top: 1rem solid #f8c954;
+header {
+  border-top: 1rem solid #f8c954;
 }
-
-footer{
-background-color: #f8c954;
-max-width: 100rem;
-/*margin-left: 0rem;
-margin-right: 0rem;
-display: block;*/
-}
-
