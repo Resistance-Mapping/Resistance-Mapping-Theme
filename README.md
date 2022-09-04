@@ -22,8 +22,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![GPL License][license-shield]][license-url]
 
 
 
@@ -138,5 +137,3 @@ Distributed under the GPL License. See `LICENSE.md` for more information.
 [issues-url]: https://github.com/Resistance-Mapping/Resistance-Mapping-Theme/issues
 [license-shield]: https://img.shields.io/github/license/Resistance-Mapping/Resistance-Mapping-Theme.svg?style=for-the-badge
 [license-url]: https://github.com/Resistance-Mapping/Resistance-Mapping-Theme/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
