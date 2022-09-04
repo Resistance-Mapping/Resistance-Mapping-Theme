@@ -51,7 +51,7 @@ span.title {
 /* Footer */
 footer {
   background-color: #f8c954;
-  max-width: 100rem;
+  max-width: 100vw;
 }
 
 .welcome footer {
