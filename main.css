@@ -3,8 +3,11 @@
 
 /* Overall Website */
 body {
-  font-family: Roboto, sans-serif;
   background-color: #fcfcfc;
+}
+
+* {
+  font-family: Roboto, sans-serif !important;
 }
 
 .welcome body,
@@ -33,6 +36,18 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
+h2 {
+  font-size: 40px !important;
+}
+
+h4 {
+  font-size: 30px !important;
+}
+
+p {
+  font-size: 20px !important;
+}
+
 a {
   text-decoration: underline;
 }
@@ -42,10 +57,22 @@ header {
   border-top: 1rem solid #f8c954;
 }
 
+.title-bar {
+  display: none !important; /* hide logo for now */
+}
+
+.site-title {
+  margin-left: 30px;
+}
+
 span.title {
   font-size: 1.3889rem;
   font-style: normal;
   font-weight: normal;
+}
+
+.top-bar-right {
+  display: flex !important;
 }
 
 /* Footer */
