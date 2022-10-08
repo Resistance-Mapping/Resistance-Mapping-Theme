@@ -85,12 +85,22 @@ span.title {
   display: flex !important;
 }
 
+.search-glass {
+  height: 25px;
+  margin-top: 4px;
+}
+
+header .input-group-field,
+header .button {
+  border: 1px solid #cacaca !important;
+}
+
 .breadcrumbs li {
   font-size: 0.85em;
 }
 
 .dropdown.menu > li {
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .dropdown.menu > li:hover {
