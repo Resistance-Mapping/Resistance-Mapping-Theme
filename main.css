@@ -49,7 +49,13 @@ p {
 }
 
 a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
   text-decoration: underline;
+  color: #000 !important;
 }
 
 /* Header & Navigation */
@@ -71,8 +77,71 @@ span.title {
   font-weight: normal;
 }
 
+.top-bar {
+  padding: 0 0.5rem;
+}
+
 .top-bar-right {
   display: flex !important;
+}
+
+.breadcrumbs li {
+  font-size: 0.85em;
+}
+
+.dropdown.menu > li {
+  padding: 0.5rem 0;
+}
+
+.dropdown.menu > li:hover {
+  background: #f8c954;
+  color: #000 !important;
+}
+
+.menu .active > a,
+.toc-block > ul .active > a,
+.toc-block ul ul .active > a {
+  background: inherit !important;
+  color: #0a0a0a;
+}
+
+.dropdown.menu > li:hover > a,
+.dropdown.menu > li > a:hover {
+  color: #000 !important;
+}
+
+.dropdown.active.is-dropdown-submenu-parent.opens-left {
+  border-bottom: 8px solid #f8c954;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after,
+.toc-block > ul.dropdown > li.is-dropdown-submenu-parent > a::after,
+.toc-block ul ul.dropdown > li.is-dropdown-submenu-parent > a::after,
+.dropdown.menu > li.is-dropdown-submenu-parent.active > a::after,
+.toc-block > ul.dropdown > li.is-dropdown-submenu-parent.active > a::after,
+.toc-block ul ul.dropdown > li.is-dropdown-submenu-parent.active > a::after {
+  border-color: #000 transparent transparent !important;
+}
+
+.toc-block ul body.vertical-menu ul .active > a::before,
+body.vertical-menu .toc-block ul ul .active > a::before,
+body.vertical-menu .toc-block > ul.nested .active > a::before,
+.toc-block ul body.vertical-menu .toc-block > ul .active > a::before,
+body.vertical-menu .toc-block ul .toc-block > ul .active > a::before,
+body.vertical-menu .vertical.menu.nested .active > a::before {
+  background: inherit;
+}
+
+.dropdown.menu > li.is-active > a,
+.toc-block > ul.dropdown > li.is-active > a,
+.toc-block ul ul.dropdown > li.is-active > a {
+  color: inherit !important;
+}
+
+.dropdown.menu > li.opens-left.active > .is-dropdown-submenu,
+.toc-block > ul.dropdown > li.opens-left.active > .is-dropdown-submenu,
+.toc-block ul ul.dropdown > li.opens-left.active > .is-dropdown-submenu {
+  top: calc(100% + 8px);
 }
 
 /* Footer */
@@ -102,8 +171,4 @@ body.team .col-single {
 
 .acp-team .item {
   margin-right: 2em;
-}
-
-.breadcrumbs li {
-  font-size: 0.85em;
 }
